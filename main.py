@@ -99,7 +99,7 @@ Unique words:
 """
     for key in uWords:
         output += f"{key} - "
-    output += "\nnPercentage of occurrence of the most frequent words in the text:\n"
+    output += "\nPercentage of occurrence of the most frequent words in the text:\n"
     for key, value in pOccurence.items():
         output += f"\t- {key} : {value}%\n"
 
